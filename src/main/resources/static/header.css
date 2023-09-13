@@ -1,0 +1,28 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Шапка */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: static;
+}
+/* Ссылки */
+a {
+    color: #0066ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
