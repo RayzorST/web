@@ -1,14 +1,36 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www/thymeleaf.org">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Login</title>
-  <link rel="stylesheet" type="text/css" href="src/main/resources/css/registration.css"/>
+  <title>iT-card</title>
+  <link rel="stylesheet" href="/home.css"/>
+  <script src="/scroll_script.js"></script>
 </head>
 
-  <header th:insert="blocks/header :: header"/>
+
 
 <body>
-
+  <nav class="nav">
+    <div class="nav-container">
+      <div class="collapse navbar-collapse" id="navbarColor03">
+        <a class="navbar-logo" href="/">iT-card</a>
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/registration">Registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/info">Info</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </body>
 </html>
