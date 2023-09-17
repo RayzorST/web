@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+/* Navigation */
+.nav {
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+    z-index: 1500;
+    box-shadow: 0 5px 17px 2px #6B6B6B;
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+
+.nav-container{
+    padding: 10px 25px;
+}
+.navbar-collapse{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-logo{
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    color: #fff;
+}
+
+.navbar-nav{
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+
+}
+
+.nav-link:hover {
+    color: #00ffc4;
+    transition: 0.3s;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.header{
+    margin-top: 330px;
+}
+
+
+.main_gradient{
+    padding-top: 130px;
+    height: 24rem;
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+}
+
+.footer {
+    background-color: #2a2a2a;
+    text-align: center;
+    color: #fff;
+    font-size: 1.1em;
+    /*idth: 100%;!*на всю ширину*!*/
+    padding: 20px 50px;/*поля для контента*/
+    display: flex;
+    justify-content: center;/*в центре по горизонтали*/
+    align-items: center;/*в центре по вертикали*/
+    flex-direction: column;
+    margin-top: 100px;/*отступ сверху*/
+}
+
+
+.menu li a {
+    font-size: 1.2em;/*размер ссылок меню*/
+    color: #fff;/*цвет ссылок меню*/
+    opacity: 0.75;/*значение прозрачности*/
+    margin: 0 15px;
+    text-decoration: none;/*ссылка без подчеркивания*/
+    display: inline-block;
+}
+.menu li a:hover {
+    opacity: 1;
+}
+.menu li{
+    list-style: none;/*удалить черные маркеры*/
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;/*разрешен перенос на новую строку*/
+}
+
+/* Скрытие навигации при прокрутке вниз */
+.header-hidden {
+    transform: translateY(-100%);
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 100% высоты видимой области окна браузера */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/* Сайт по центру */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Добавить отступы между каждым столбцом (если вы хотите) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Создайте четыре одинаковых столбца, которые плавают рядом друг с другом */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Очистить поплавки после строк */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Содержание */
+/*.content {
+  background-color: white;
+  padding: 10px;
+}*/
+
+/* Адаптивный макет - делает два столбца-макет вместо четырех столбцов */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Адаптивный макет - делает два столбца стека друг на друга, а не рядом друг с другом */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}

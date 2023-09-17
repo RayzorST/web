@@ -4,14 +4,29 @@
 <head>
   <meta charset="UTF-8">
   <title>iT-card</title>
-  <link rel="stylesheet" href="/home.css"/>
-  <script src="/scroll_script.js"></script>
+  <link rel="stylesheet" href="/login.css"/>
+  <link rel="stylesheet" href="/text.css"/>
+  <link rel="stylesheet" href="/enders.css"/>
+  <link rel="stylesheet" href="/background.css"/>
 </head>
-
-
 
 <body>
   <div th:insert = "blocks/enders :: header"></div>
+
+  <div class="lines">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+
+  <main>
+    <div class="container">
+      <fieldset>
+        <input class="form-control" type="text" placeholder="Disabled input here...">
+      </fieldset>
+    </div>
+  </main>
+
   <div th:insert = "blocks/enders :: footer"></div>
 </body>
 </html>
