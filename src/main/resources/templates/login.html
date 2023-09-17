@@ -11,26 +11,7 @@
 
 
 <body>
-  <nav class="nav">
-    <div class="nav-container">
-      <div class="collapse navbar-collapse" id="navbarColor03">
-        <a class="navbar-logo" href="/">iT-card</a>
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/login">Login</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/registration">Registration</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/info">Info</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <div th:insert = "blocks/enders :: header"></div>
+  <div th:insert = "blocks/enders :: footer"></div>
 </body>
 </html>
