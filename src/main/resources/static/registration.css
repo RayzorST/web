@@ -27,6 +27,26 @@
     color: #9b9b9b;
 }
 
+.registration{
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    justify-content: center; /* Горизонтальное выравнивание по центру */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    line-height: 2.25;
+    text-decoration: none;/*ссылка без подчеркивания*/
+}
+
+.reg_but{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.25;
+    text-decoration: none;/*ссылка без подчеркивания*/
+    color: #000000;/*цвет ссылок меню*/
+    /*opacity: 0.75;!*значение прозрачности*!*/
+    list-style: none;/*удалить черные маркеры*/
+}
 
 .form__field:focus {
     ~ .form__label {
@@ -105,11 +125,7 @@ input[type="submit"] {
             #f79533,
             #f37055,
             #ef4e7b,
-            #a166ab,
-            #5073b8,
-            #1098ad,
-            #07b39b,
-            #6fba82
+            #a166ab
     );
 }
 
