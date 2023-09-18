@@ -136,3 +136,15 @@
     width: 115%;
     height: 115%;
 }
+
+
+.login_page{
+    font-family: brandon-grotesque,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 2.25;
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание по центру */
+    align-items: center; /* Вертикальное выравнивание по центру */
+}
