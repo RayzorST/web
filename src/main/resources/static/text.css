@@ -57,3 +57,14 @@
     --bs-text-opacity: 1;
     color: rgba(255, 255, 255, 0.5) !important;
 }
+
+.hello_sign{
+    font-family: brandon-grotesque,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 2.25;
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание по центру */
+    align-items: center; /* Вертикальное выравнивание по центру */
+}
