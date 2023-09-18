@@ -17,24 +17,24 @@
         <img class="main_gradient" alt="image" src="https://cdn.shopify.com/s/files/1/2031/9599/collections/923header_a29b24dd-d53b-4fc8-afa9-184513fa65d9.jpg?v=1660343809" height="400" sizes="(max-width: 32em) 100vw, 33vw" width="600" loading="eager">
       </div>
 
-      <div class = "formbg">
+      <form class = "formbg" action="/registration" method="post">
         <div class="form__group field">
-          <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+          <input type="input" class="form__field" placeholder="Name" name="name" id='name' required /><br>
           <label for="name" class="form__label">Name</label>
         </div>
 
         <div class="form__group field">
-          <input type="input" class="form__field" placeholder="Surname" name="surname" id='surname' required />
+          <input type="input" class="form__field" placeholder="Surname" name="surname" id='surname' required /><br>
           <label for="surname" class="form__label">Surname</label>
         </div>
 
         <div class="form__group field">
-          <input type="input" class="form__field" placeholder="Password" name="password" id='password' required />
+          <input type="input" class="form__field" placeholder="Password" name="password" id='password' required /><br>
           <label for="password" class="form__label">Password</label>
         </div>
 
-        <input type="submit" name="submit" value="Continue">
-      </div>
+        <button type="submit">Continue</button><br>
+      </form>
     </main>
     <div th:insert = "blocks/enders :: footer"></div>
   </body>
