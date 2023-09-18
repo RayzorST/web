@@ -8,3 +8,37 @@
     justify-content: center; /* Горизонтальное выравнивание по центру */
     align-items: center; /* Вертикальное выравнивание по центру */
 }
+
+.label_info {
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в столбце */
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Используем всю высоту экрана */
+    background-color: #f0f0f0;
+}
+
+.label_info div {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+    padding: 25px;
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+    font-size: 1.5rem;
+    margin-top: 20px; /* Добавляем маргин сверху между табличками */
+}
+
+.label_info h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.label_info p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+
