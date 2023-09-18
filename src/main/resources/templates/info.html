@@ -10,60 +10,60 @@
 </head>
 
 <body>
-    <div th:insert = "blocks/enders :: header"></div>
+<div th:insert = "blocks/enders :: header"></div>
 
-    <div class="lines">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+<div class="lines">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+</div>
+
+<main>
+    <div class="main_page">
+        <img class="main_gradient" alt="image" src="https://cdn.shopify.com/s/files/1/2031/9599/collections/923header_a29b24dd-d53b-4fc8-afa9-184513fa65d9.jpg?v=1660343809" height="400" sizes="(max-width: 32em) 100vw, 33vw" width="600" loading="eager">
     </div>
+    <header>
+        <p class="hello_sign">This page about info of MIREA!</p>
+    </header>
+</main>
 
-    <main>
-        <div class="main_page">
-            <img class="main_gradient" alt="image" src="https://cdn.shopify.com/s/files/1/2031/9599/collections/923header_a29b24dd-d53b-4fc8-afa9-184513fa65d9.jpg?v=1660343809" height="400" sizes="(max-width: 32em) 100vw, 33vw" width="600" loading="eager">
-        </div>
-        <header>
-            <p class="hello_sign">This page about info of MIREA!</p>
-        </header>
-    </main>
-
-    <div class="row">
-        <div class="column">
-            <div class="content">
-                <img src="/images/some_class.jpg" alt="Учебный класс" style="width:100%">
-                <h3>Моя работа</h3>
-                <p>Lorem ipsum..</p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="content">
-                <img src="/images/our_students.jpg" alt="Наши студенты учатся в поте лица!" style="width:100%">
-                <h3>Моя работа</h3>
-                <p>Lorem ipsum..</p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="content">
-                <img src="/images/him_mirea.jpg" alt="Химическое отделение" style="width:100%">
-                <h3>Моя работа</h3>
-                <p>Lorem ipsum..</p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="content">
-                <img src="/images/happy_graduation.jpg" alt="Счастливые выпускники!" style="width:100%">
-                <h3>Моя работа</h3>
-                <p>Lorem ipsum..</p>
-            </div>
+<div class="row">
+    <div class="column">
+        <div class="content">
+            <img src="/images/some_class.jpg" alt="Учебный класс" style="width:100%">
+            <h3>Учебный класс</h3>
+            <p>Это один из лекционных учебных классов РТУ МИРЭА</p>
         </div>
     </div>
-
-    <div class="content">
-        <img src="/images/main_photo.jpg" alt="main_photo" style="width:100%">
-        <h3>Некоторые другие работы</h3>
-        <p>Lorem ipsum..</p>
+    <div class="column">
+        <div class="content">
+            <img src="/images/our_students.jpg" alt="Наши студенты учатся в поте лица!" style="width:100%">
+            <h3>Наши студенты на фестивале!</h3>
+            <p>В Москве проходил какой-то фестиваль #ЗАЧЕТНАЯ МОСКВА</p>
+        </div>
     </div>
+    <div class="column">
+        <div class="content">
+            <img src="/images/him_mirea.jpg" alt="Химическое отделение" style="width:100%">
+            <h3>Химическое отделение</h3>
+            <p>А это один из главных кампусов нашего университета. Прямо за ним располагается знаменитый учебный ценрт Альтаир!</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="content">
+            <img src="/images/happy_graduation.jpg" alt="Счастливые выпускники!" style="width:100%">
+            <h3>Счастливые выпускники!</h3>
+            <p>Выпусной, ах как скоро он будет!</p>
+        </div>
+    </div>
+</div>
 
-    <div th:insert = "blocks/enders :: footer"></div>
+<div class="content">
+    <img src="/images/main_photo.jpg" alt="main_photo" style="width:100%">
+    <h3>Фото главного корпуса</h3>
+    <p>Это фотография центрального входа в главный корпус РТУ МИРЭА</p>
+</div>
+
+<div th:insert = "blocks/enders :: footer"></div>
 </body>
 </html>
