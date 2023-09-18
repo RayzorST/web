@@ -66,3 +66,25 @@
     border-radius: 4px;
     box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
 }
+
+
+.registration{
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    justify-content: center; /* Горизонтальное выравнивание по центру */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    line-height: 2.25;
+    text-decoration: none;/*ссылка без подчеркивания*/
+}
+
+.reg_but{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.25;
+    text-decoration: none;/*ссылка без подчеркивания*/
+    color: #000000;/*цвет ссылок меню*/
+    /*opacity: 0.75;!*значение прозрачности*!*/
+    list-style: none;/*удалить черные маркеры*/
+}
