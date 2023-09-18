@@ -82,7 +82,7 @@ body {
     text-align: center;
     color: #fff;
     font-size: 1.1em;
-    /*idth: 100%;!*на всю ширину*!*/
+    idth: 100%;/*на всю ширину*/
     padding: 20px 50px;/*поля для контента*/
     display: flex;
     justify-content: center;/*в центре по горизонтали*/
@@ -124,7 +124,11 @@ body {
 .page-container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* 100% высоты видимой области окна браузера */
+    idth: 100%;/*на всю ширину*/
+    bottom: 0;
+    left: 0;
+    position: sticky;
+    /*min-height: 100vh; !* 100% высоты видимой области окна браузера *!*/
 }
 
 * {
@@ -171,11 +175,12 @@ h1 {
     clear: both;
 }
 
-/* Содержание */
-/*.content {
+/* Содержание*/
+.content {
   background-color: white;
   padding: 10px;
-}*/
+    text-align: center;
+}
 
 /* Адаптивный макет - делает два столбца-макет вместо четырех столбцов */
 @media screen and (max-width: 900px) {
