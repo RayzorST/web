@@ -83,12 +83,15 @@ body {
     color: #fff;
     font-size: 1.1em;
     idth: 100%;/*на всю ширину*/
+    width: 100%;/*!*на всю ширину*!*/
     padding: 20px 50px;/*поля для контента*/
     display: flex;
     justify-content: center;/*в центре по горизонтали*/
     align-items: center;/*в центре по вертикали*/
     flex-direction: column;
     margin-top: 100px;/*отступ сверху*/
+    left: 0;
+    right: 0;
 }
 
 
